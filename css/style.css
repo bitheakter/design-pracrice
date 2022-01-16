@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .box{
     width: 270px;
   padding-top: 10px;
-  border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.575);
+  border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.575);
+    transition: all 0.3s;
+    cursor: pointer;
 }
 .box:hover{
     transform: translatey(-20px);
@@ -27,12 +31,13 @@
 
 }
 .button{
-    background-color: aqua;
-    border-radius: 20px;
-    padding: 0 20px;
+    background-color: rgba(91, 131, 131, 0.37);
+    border-radius: 25px;
+    padding: 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+
  
 }
 .footer{
@@ -42,7 +47,7 @@
 }
 
 .class{
-    font-size: 25px;
+    font-size: 15px;
 }
 .text-container-div{
     padding: 15px;
@@ -66,4 +71,13 @@
     grid-gap: 30px;
 
 }
-
+.p{
+    color: green;
+}
+.color{
+    color: rgba(0, 0, 255, 0.787);
+    
+}
+.clr{
+    color: rgba(0, 0, 255, 0.787);
+}
